@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+.container1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 200px;
+  background-color: #fff;
+  flex: 1.5;
+  transition: 0.3s all ease;
+}
+.card:hover {
+  flex: 2;
+  background-color: rgb(207, 207, 207);
+}
